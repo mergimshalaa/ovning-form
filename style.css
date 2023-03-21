@@ -154,3 +154,12 @@ hr {
     margin-top: 8%;
     border-style: none;
 }
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+.checkbox-container label {
+    margin-left: 10px;
+    padding:0px 2rem;
+}
