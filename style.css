@@ -139,6 +139,18 @@ hr {
     margin: auto;
 }
 
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  
+  .pics img {
+    width: 100%;
+  }
+  
+
 #button3 {
     background-color: blue;
     font-family: sans-serif;
@@ -158,6 +170,7 @@ hr {
 .checkbox-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .checkbox-container label {
     margin-left: 10px;
